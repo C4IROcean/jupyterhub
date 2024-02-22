@@ -1,8 +1,0 @@
-GET https://workspace.hubocean.earth/hub/api/users?state=active&limit=10
-Authorization: token {{$dotenv JUPYTER_HUB_TOKEN}}
-###
-GET https://workspace.hubocean.earth/hub/api/users/x.y@oceandata.earth
-Authorization: token {{$dotenv JUPYTER_HUB_TOKEN}}
-###
-DELETE https://workspace.hubocean.earth/hub/api/users/17saiiqb@gmail.com
-Authorization: token {{$dotenv JUPYTER_HUB_TOKEN}}
